@@ -4,7 +4,7 @@ Lab
 Type the command you used unless asked to provide a screenshot capturing the result of the command
 
 Lab 30.1 Using Probing Tools
-STEP 1. Open a terminal window.
+STEP 1. Open a window.
 
 STEP 2. Switch to the root account.
 sudo su -
