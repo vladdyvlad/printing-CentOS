@@ -1,17 +1,23 @@
 # printing-CentOS
 
-Complete Lab 30.1, 30.2 <Optional>
+Lab 
 Type the command you used unless asked to provide a screenshot capturing the result of the command
+
 Lab 30.1 Using Probing Tools
 STEP 1. Open a terminal window.
+
 STEP 2. Switch to the root account.
 sudo su -
+
 STEP 3. Execute the nmap command to probe for open TCP on the local system.
      nmap -p 1-65535 localhost 
+
 STEP 4. Execute the nmap command to probe for open UDP on the local system.
 nmap -sU -p 1-65535 localhost 
+
 STEP 5. Execute the nmap command to probe for ports 5000–10000 on the local system.
 nmap -p 5000-10000 localhost 
+
 STEP 6. Execute the netstat command to display a summary of network packet information by protocol. <Provide a screenshot, below>
 
 
@@ -35,6 +41,7 @@ STEP 8. Execute the netstat command to display all listening sockets. . <Provide
 
 STEP 9. Execute the lsof command to open network sockets.
 lsof -i 
+
 STEP 10. Execute the lsof command to open network sockets without resolving hostnames or port names.
 lsof -ni
 
